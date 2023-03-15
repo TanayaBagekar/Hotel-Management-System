@@ -1,13 +1,13 @@
 import { Component } from '@angular/core';
 
 @Component({
-  selector: 'app-admin',
-  templateUrl: './admin.component.html',
-  styleUrls: ['./admin.component.scss']
+  selector: 'app-user',
+  templateUrl: './user.component.html',
+  styleUrls: ['./user.component.scss']
 })
-export class AdminComponent {
+export class UserComponent {
 
-  loginAdmin(data:any){
+ loginAdmin(data:any){
    console.log(data);
    console.log(data.username);
    console.log(data.password);
@@ -21,11 +21,6 @@ export class AdminComponent {
       }
     }else {
       location.href = 'http://localhost:4200/pagenotFound'
-    }
+    } 
   }
-   
-   
-   
-  }
-
-
+}

@@ -7,7 +7,7 @@ import { SignupComponent } from './signup/signup.component';
 
 const routes: Routes = [{ path: 'admin/login', loadChildren: () => import('./admin/admin.module').then(m => m.AdminModule) }, 
 { path: 'Owner/login', loadChildren: () => import('./owner/owner.module').then(m => m.OwnerModule) },
-{ path: 'users', loadChildren: () => import('./users/users.module').then(m => m.UsersModule) },
+{path:'user', loadChildren: () => import('./user/user.module').then(m => m.UserModule)},
  { path: 'home', loadChildren: () => import('./home/home.module').then(m => m.HomeModule) }, 
  {path:'api',component:ApiComponent },
  {path:'signup',component:SignupComponent},

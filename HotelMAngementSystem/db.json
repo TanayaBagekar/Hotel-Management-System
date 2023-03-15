@@ -1,0 +1,29 @@
+{
+  "posts": [
+    {
+      "id": 1,
+      "title": "json-server",
+      "author": "typicode"
+    },
+    {
+      "gender": "female",
+      "date": "2023-03-30",
+      "phone": "7499269640",
+      "email": "tanayaBagekar@123",
+      "username": "tanaya@123",
+      "password": "tanaya@123",
+      "name": "TanayaBagekar",
+      "id": 2
+    }
+  ],
+  "comments": [
+    {
+      "id": 1,
+      "body": "some comment",
+      "postId": 1
+    }
+  ],
+  "profile": {
+    "name": "typicode"
+  }
+}

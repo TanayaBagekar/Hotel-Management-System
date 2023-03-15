@@ -9,7 +9,7 @@ import { NavbarComponent } from './navbar/navbar.component';
 import { OwnerModule } from './owner/owner.module';
 import { PagenotFoundComponent } from './pagenot-found/pagenot-found.component';
 import { SignupComponent } from './signup/signup.component';
-import { UsersModule } from './users/users.module';
+import { UserModule } from './user/user.module';
 import { ApiComponent } from './api/api.component';
 import { FormsModule, ReactiveFormsModule } from "@angular/forms";
 import { SignupModule } from './signup/signup/signup.module';
@@ -29,7 +29,7 @@ import { ApiModule } from './api/api/api.module';
     HomeModule,
     OwnerModule,
     AdminModule,
-    UsersModule,
+    UserModule,
     FormsModule,
     ReactiveFormsModule,
     SignupModule,
